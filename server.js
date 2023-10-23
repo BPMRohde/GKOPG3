@@ -26,7 +26,7 @@ const server = net.createServer((socket) => {
   });
 });
 
-const serverPort = 8080;
+const serverPort = 3000;
 
 server.listen(serverPort, () => {
   console.log(`Server is listening on port ${serverPort}`);
